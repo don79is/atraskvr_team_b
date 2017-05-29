@@ -1,13 +1,13 @@
 @extends('admin.adminBase')
 
-@section('adminPagesList')
+@section('adminList')
     <div class="container">
         <h2> {{$listName}} sąrašas</h2>
         <table class="table table-hover">
             @if(isset($url))
-                <a href="{{$url}}" class="btn btn-primary" role="button">
-                    Pridėti naują</a>
-                <hr/>
+            <a href="{{$url}}" class="btn btn-primary" role="button">
+                Pridėti naują</a>
+            <hr/>
             @endif
             <thead>
             <tr>
@@ -42,8 +42,7 @@
 
                     @if(isset($edit))
 
-
-                        <td><a href="{{route($edit, [$record['id'], app()->getLocale()])}}" class="btn btn-info btn-sm">Koreguoti</a>
+                        <td><a href="{{route($edit, $record['id'])}}" class="btn btn-info btn-sm">Koreguoti</a>
                         </td>
                     @endif
                     @if(isset($showDelete))
@@ -59,3 +58,4 @@
         </table>
     </div>
 @endsection
+
