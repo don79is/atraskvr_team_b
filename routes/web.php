@@ -12,7 +12,7 @@
 */
 
 Route::get('/', ['uses' => 'VRWelcomePageController@displayMenu']);
-
+Route::get('/', ['uses' => 'FrontEndController@index']);
 
 Route::get('/redirect', 'SocialAuthController@redirect');
 Route::get('/callback', 'SocialAuthController@callback');

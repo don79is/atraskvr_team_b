@@ -1,4 +1,4 @@
-@extends('front-end.frontEndBase')
+@extends('front-end.home')
 
 @section('page')
     <div class="container">
