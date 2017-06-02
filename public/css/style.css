@@ -1,16 +1,28 @@
-#menu, #menu ul, #menu li {
+#menu .navbar-default {
     background-color: black;
 
 }
 
-#menu li a {
-    color: white;
+#menu li a   {
+    color: white
 }
 
-#menu a:hover, a:focus {
+#menu .navbar-default a:hover, a:focus {
     background-color: black;
     color: #fd7b30;
 }
 #menu ul .open a {
     background-color: black;
 }
+.navbar-nav>li>.dropdown-menu {
+    background-color: black;
+}
+
+.navbar-default {
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+
+
