@@ -5,6 +5,6 @@ return [
 
     "inspired_by" => "Inspired By:",
     "find_yourself" => "DISCOVER VR",
-    "baner_text" => ""
+    "baner_text" => "No translation"
 
 ];

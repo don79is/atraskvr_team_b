@@ -7,8 +7,8 @@
                 <h3 class="inspired">{{trans('app.inspired_by')}}</h3>
             </div>
         </div>
-        <h1 class="main-title">{{trans('app.find_yourself')}}</h1>
-       <h5 class="baner-text">{{trans('app.baner_text')}}</h5>
+        <h1 class="main-title">{!!trans('app.find_yourself')!!}</h1>
+       <h5 class="baner-text">{!!trans('app.baner_text')!!}</h5>
     </div>
 
 @endsection

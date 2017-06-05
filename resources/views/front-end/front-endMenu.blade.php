@@ -31,7 +31,17 @@
                     <li><a>Vieta ir laikas</a></li>
                     <li><a>Bilietai</a></li>
                     <li><a>Rėmėjai</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kalbos<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">LT</a></li>
+                            <li><a href="#">EN</a></li>
+                            <li><a href="#">RU</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
 </nav>
+
+
